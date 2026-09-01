@@ -1,0 +1,29 @@
+{
+  "name": "agricol",
+  "version": "1.0.0",
+  "private": true,
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "test:unit": "jest --runInBand"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "~2.1.0",
+    "expo": "~52.0.0",
+    "expo-location": "~18.0.0",
+    "expo-sensors": "~14.0.0",
+    "react": "18.3.1",
+    "react-native": "0.76.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-expo": "~52.0.0",
+    "react-test-renderer": "18.3.1"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": ["**/__tests__/**/*.test.js"]
+  }
+}

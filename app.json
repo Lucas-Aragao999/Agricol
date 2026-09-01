@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Agricol",
+    "slug": "agricol",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Permita o acesso a localizacao para registrar a visita tecnica."
+        }
+      ]
+    ]
+  }
+}

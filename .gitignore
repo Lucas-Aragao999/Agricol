@@ -1,0 +1,29 @@
+# Dependencias instaladas localmente.
+node_modules/
+
+# Arquivos de ambiente e credenciais locais.
+.env
+.env.*
+!.env.example
+
+# Caches e saidas temporarias do Expo, Metro e testes.
+.expo/
+.expo-shared/
+.metro-health-check*
+coverage/
+.jest/
+
+# Artefatos de build nativo e distribuicao.
+android/
+ios/
+dist/
+web-build/
+
+# Arquivos de sistema e logs locais.
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
